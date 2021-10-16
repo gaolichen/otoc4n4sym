@@ -9,7 +9,7 @@ For more details of the background, read the paper [One-Loop Non-Planar Anomalou
 ](https://arxiv.org/abs/2005.14254) and [Regularization dependence of the OTOC. Which Lyapunov spectrum is the physical one?
 ](https://arxiv.org/abs/1903.09595)
 
-## Featuress
+## Features
 - Generate trace states of SU(2) sector and Hamiltonian matrix in trace states.
 - Generate norm matrix, whose entry at `(i,j)` represents the overlap between trace states `i` and `j`.
 - Compute energy spectrum for Hamiltonian matrix
@@ -28,10 +28,10 @@ SET(BOOST_ROOT ${MYDEV}/boost_1_70_0) --> SET(BOOST_ROOT path/toboost/library)
 - Build the project:
   - In Windows/Visual Studio, double click the .sln file in the `build` directory, then build the solution 
   - In Linux, run command line `make` in the `build` directory
-- Run `otoc.exe` from command line to see help & options
+- Run `otoc.exe` from command line to see help & examples
 
 ## Examples
-Examples are displayed with helps onece `otoc.exe` is executed without options.
+Examples are displayed with helps when `otoc.exe` is executed without option.
 
 1. Generate Hamiltonian matrix and trace states for L=4, M=2
 ```shell
